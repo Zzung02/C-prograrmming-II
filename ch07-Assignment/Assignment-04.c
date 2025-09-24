@@ -7,10 +7,17 @@
 
 #include <stdio.h>
 
-    void find_min_max_with_index(
-        int arr[], int size,
-        int* min_val, int* max_val,
-        int* min_index, int* max_index)
+// 함수 원형 선언
+void find_min_max_with_index(
+    int arr[], int size,
+    int* min_val, int* max_val,
+    int* min_index, int* max_index);
+
+// 함수 정의
+void find_min_max_with_index(
+    int arr[], int size,
+    int* min_val, int* max_val,
+    int* min_index, int* max_index)
 {
     *min_val = *max_val = arr[0];
     *min_index = *max_index = 0;
@@ -27,7 +34,8 @@
     }
 }
 
-int main() {
+// main 함수
+int main(void) {
     int data[10] = { 23, 45, 62, 19, 99, 83, 20, 53, 72, 37 };
     int min_val, max_val;
     int min_index, max_index;
