@@ -14,6 +14,7 @@
 
 
 
+
 struct Student {
 	char name[24];
 	char id[16];
