@@ -123,9 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Assignment-01.c">
+    <ClCompile Include="Assignment-02.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Assignment-03.c" />
+    <ClCompile Include="Assignment-05.c" />
+    <ClCompile Include="Assignment-08.c" />
+    <ClCompile Include="Assignment-09.c" />
+    <ClCompile Include="Assignment-11.c" />
+    <ClCompile Include="Assignment-12.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
