@@ -34,6 +34,7 @@ int main(void) {
 	scanf("%d", &item.price);
 
 	printf("재고? ");
+
 	scanf("%d, &item.stock");
 
 	//출력

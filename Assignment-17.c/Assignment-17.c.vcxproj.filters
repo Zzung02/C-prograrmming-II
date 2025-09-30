@@ -14,24 +14,4 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Assignment-01.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Assignment-03.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Assignment-08.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Assignment-13.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Assignemnt-18.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Assignment-17.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
 </Project>
