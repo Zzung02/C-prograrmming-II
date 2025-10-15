@@ -22,7 +22,7 @@ typedef struct {
 
 } LOGIN;
 
-int main(viod) {
+int main(void) {
 	//5개의 계정 정보를 미리 등록
 	LOGIN users[SIZE] = {
 		{"guest", "idontknow"},
@@ -47,7 +47,7 @@ int main(viod) {
 
 	// 구조체 배열을 들면서 ID 검색
 	for (int i = 0; i < SIZE; i++) {
-		if (strcmp)(users[i].id, input_id) == 0) { // ID 일치
+		if ((strcmp)(users[i].id, input_id) == 0) { // ID 일치
 			found = 1;
 			if (strcmp(users[i].password, input_pw) == 0) {
 				printf("로그인 성공\n");
