@@ -1,5 +1,5 @@
 /*
-/* 학번 :202110316
+* 학번 :202110316
 *  이름 :김정민
 *  프로그램명 : static 지역변수 예제 프로그램
 *  날짜 :2025/10/15
@@ -13,7 +13,7 @@ void test_static(void)
 {
 
 	int local = 0;     // 함수가 호출될 때마다 생성된다.
-	static int a s_local = 0; // 프로그램 시작 시 생성된다.
+	static int  s_local = 0; // 프로그램 시작 시 생성된다.
 
 	printf("local = %d, ", local++);
 	printf("s_local = %d\n", s_local++);
@@ -25,7 +25,7 @@ int main(void)
 {
 	int i = 0;
 	for (i = 0; i < 5; i++)
-		trst_static();  // test_static을 5번 호출한다.
+		test_static();  // test_static을 5번 호출한다.
 
 	return 0;
 }

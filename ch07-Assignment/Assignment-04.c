@@ -8,6 +8,7 @@
 #include <stdio.h>
 
 // 함수 원형 선언
+
 void find_min_max_with_index(
     int arr[], int size,
     int* min_val, int* max_val,
